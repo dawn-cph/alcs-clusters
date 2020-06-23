@@ -13,8 +13,6 @@ Gabriel Brammer: gabriel.brammer@nbi.ku.dk
 
 # General Information
 
-=============================================
-
 fields/
 
 	directory with all the alcs fields
@@ -26,8 +24,6 @@ fields/clu+par
 -folder naming convention
 
         {cluster name}_{CHArGE id}
-
-=============================================
 
 # Data Products
 
@@ -46,8 +42,6 @@ fields/clu+par
 -combined photometry and eazy output
 
 	cat_combined.fits
-
-=============================================
 
 # Mosaics
 
