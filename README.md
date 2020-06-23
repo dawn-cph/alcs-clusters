@@ -31,21 +31,26 @@ fields/clu+par
 
 # Data Products
 
-- main photometry catalogue
-+ _irac_phot.fits
+-main photometry catalogue
 
-- eazy output 
-+ _irac.eazypy.zout.fits
+	_irac_phot.fits
 
-- irac photometry+aperture corrected HST photometry
-+ _irac_phot_appcor
+-eazy output
 
-- combined photometry and eazy output
-+ cat_combined.fits
+	_irac.eazypy.zout.fits
+
+-irac photometry+aperture corrected HST photometry
+
+	_irac_phot_appcor
+
+-combined photometry and eazy output
+
+	cat_combined.fits
 
 =============================================
 
 # Mosaics
 
 -science and weight images
+
 -residuals
