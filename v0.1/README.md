@@ -20,7 +20,7 @@ Photometry
 Data Products
 -------------
 
-Summarized at [fields.md](./fields.md)
+[Fields](./fields.md) summary.
 
 Tests
 =====
