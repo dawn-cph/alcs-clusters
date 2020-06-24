@@ -18,6 +18,13 @@ IRAC with [golfir](https://github.com/gbrammer/golfir)....
 
 -residuals
 
+Photometry
+----------
+
+HST
+
+IRAC
+
 General Information
 ===================
 
@@ -59,12 +66,6 @@ Source Detection
 ----------------
 
 
-Photometry
-----------
-
-HST
-
-IRAC
 
 
 Photometric Redshifts
