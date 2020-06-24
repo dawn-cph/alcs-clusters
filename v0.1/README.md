@@ -70,7 +70,8 @@ Source Detection
 
 Photometric Redshifts
 ---------------------
-
+Redshifts were computed by using a python version of [EAZY](https://github.com/gbrammer/eazy-py).
+The code that was used to compute these redshifts can be found in the scripts folder.
 
 .
 
