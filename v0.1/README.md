@@ -14,6 +14,10 @@ HST images automatically processed by the [Grizli](https://github.com/gbrammer/g
 
 IRAC with [golfir](https://github.com/gbrammer/golfir)....
 
+Source Detection
+----------------
+
+
 Photometry
 ----------
 
