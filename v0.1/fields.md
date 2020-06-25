@@ -3,7 +3,7 @@ HST Frontier Fields
 
 | Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
-|  Abell 2744 |         |       |     | [hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html)      |        |
+|  Abell 2744 |  00:14:21.2       |30:23:50.10       | 0.308    | [hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html)      |  [A2744_hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/hff-j001408m3023/Photometry/files.txt)      |
 |  ...        |         |       |     |                                                                                                                          |        |
 
 CLASH
