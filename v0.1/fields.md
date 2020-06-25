@@ -39,5 +39,8 @@ RELICS
 
 | Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
-|  RXC0032|  00:32:11.05        | 8:07:49.03     |  0.3956  | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
+|  RXC0032|  00:32:11.05        | 18:07:49.03     |  0.3956  | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
+|  Abell 2537|  23:08:22.23        |  -02:11:32.40    |  0.2966  | [j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Prep/j003212p1808.summary.html)      | [A2537_j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/index.html)       |
+|  Abell 3192 |  03:58:53.07        | -29:55:44.75     |  0.4250  | [j035852m2956](https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Prep/j035852m2956.summary.html)      | [A3192_j035852m2956](https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/index.html)       |
+|  MACS0553 |  05:53:23.09         | -33:42:29.91    |  0.4300  | [j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Prep/j055324m3342.summary.html)      | [M0553_j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Photometry/index.html)       |
 |  ...        |         |       |     |                                                                                                                          |        |
