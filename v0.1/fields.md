@@ -1,12 +1,12 @@
 HST Frontier Fields (Cluster+Parallel)
 ===================
 
-| Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
-|-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
-|  Abell 2744 |  00:14:21.2       |-30:23:50.10       | 0.308    | [hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html)      |  [A2744_hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/index.html)      |
-|  Abell 1063     |  22:48:44.4       | -44:31:48.50      | 0.348    |  [hff-j224900m4432](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Prep/hff-j224900m4432.summary.html)                                                                                                                   |  [ A1063_hff-j224900m4432](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/index.html)      |
-| Abell 370|      02:39:52.9    | -01:34:36.50               | 0.375| [hff-j024004m0136](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Prep/hff-j024004m0136.summary.html) | [A370_hff-j024004m0136](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/index.html)  |
-|   MACS0416    | 04:16:08.90        |  -24:04:28.70     | 0.396    |    [hff-j041620m2406](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Prep/hff-j041620m2406.summary.html) | [M0416_hff-j041620m2406](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/index.html)      |
+| Field       |   RA    |  Dec  |  z  | E(B-V)|  HST                                                                                                                     |  IRAC  |
+|-------------|---------|-------|-----|------|--------------------------------------------------------------------------------------------------------------------------|--------|
+|  Abell 2744 |  00:14:21.2       |-30:23:50.10       | 0.308    | | [hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html)      |  [A2744_hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/index.html)      |
+|  Abell 1063     |  22:48:44.4       | -44:31:48.50      | 0.348    | |  [hff-j224900m4432](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Prep/hff-j224900m4432.summary.html)                                                                                                                   |  [ A1063_hff-j224900m4432](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/index.html)      |
+| Abell 370|      02:39:52.9    | -01:34:36.50               | 0.375| | [hff-j024004m0136](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Prep/hff-j024004m0136.summary.html) | [A370_hff-j024004m0136](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/index.html)  |
+|   MACS0416    | 04:16:08.90        |  -24:04:28.70     | 0.396    | |    [hff-j041620m2406](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Prep/hff-j041620m2406.summary.html) | [M0416_hff-j041620m2406](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/index.html)      |
 
 HST Frontier Fields (Cluster only)
 ===================
@@ -40,7 +40,7 @@ RELICS
 | Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
 |  RXC0032|  00:32:11.05        | 18:07:49.03     |  0.3956  | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
-|  Abell 2537|  23:08:22.23        |  -02:11:32.40    |  0.2966  | [j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Prep/j003212p1808.summary.html)      | [A2537_j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/index.html)       |
+|  Abell 2537|  23:08:22.23        |  -02:11:32.40    |  0.2966  | [j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Prep/j230824m0212.summary.html)      | [A2537_j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/index.html)       |
 |  Abell 3192 |  03:58:53.07        | -29:55:44.75     |  0.4250  | [j035852m2956](https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Prep/j035852m2956.summary.html)      | [A3192_j035852m2956](https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/index.html)       |
 |  MACS0553 |  05:53:23.09         | -33:42:29.91    |  0.4300  | [j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Prep/j055324m3342.summary.html)      | [M0553_j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Photometry/index.html)       |
 |  ...        |         |       |     |                                                                                                                          |        |
