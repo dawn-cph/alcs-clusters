@@ -43,11 +43,11 @@ TBD
 
 ### Main photometric catalog
 
-``{CHArGE id}_irac_phot_apcorr.fits``: [Columns](./phot_apcorr_columns.md)
+``{CHArGE id}_irac_phot_apcorr.fits``: [Column description](./phot_apcorr_columns.md)
 
 ### ``eazy-py`` output
 
-``{CHArGE id}_irac.eazypy.zout.fits``: [Columns](./zout_columns.md)
+``{CHArGE id}_irac.eazypy.zout.fits``: [Column description](./zout_columns.md)
 
 ### Combined catalog
 
