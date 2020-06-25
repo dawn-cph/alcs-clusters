@@ -21,8 +21,8 @@ CLASH
 
 | Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
-|  Abell 383 |  02:48:03.36       | -03:31:44.70      |  0.187   | [j024804m0332](https://s3.amazonaws.com/grizli-v1/Pipeline/j024804m0332/Prep/hff-j024804m0332.summary.html)      | [A383_j024804m0332](https://s3.amazonaws.com/grizli-v1/j024804m0332/Photometry/files.txt)       |
-|  MACS1206       |   12:06:12.28      |  -08:48:02.40     | 0.440    |                                                                                                                          |        |
+|  Abell 383 |  02:48:03.36       | -03:31:44.70      |  0.187   | [j024804m0332](https://s3.amazonaws.com/grizli-v1/Pipeline/j024804m0332/Prep/hff-j024804m0332.summary.html)      | [A383_j024804m0332](https://s3.amazonaws.com/grizli-v1/Pipeline/j024804m0332/Photometry/index.html)        |
+|  MACS1206       |   12:06:12.28      |  -08:48:02.40     | 0.440    | [j120612m0848](https://s3.amazonaws.com/grizli-v1/Pipeline/j120612m0848/Prep/hff-j024804m0332.summary.html)     | [M1206_j120612m0848](https://s3.amazonaws.com/grizli-v1/Pipeline/j120612m0848/Photometry/index.html)       |
 |  ...        |         |       |     |                                                                                                                          |        |
 |  ...        |         |       |     |                                                                                                                          |        |
 |  ...        |         |       |     |                                                                                                                          |        |
