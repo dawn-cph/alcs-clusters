@@ -62,7 +62,7 @@ All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 |                   ``mag_auto`` |                                                                                       Kron magnitude |
 |                ``magerr_auto`` |                                                                                          Uncertainty |
 |             ``flux_aper_{ap}`` |                       Flux in circular aperture, diameters 0.36, 0.5, 0.7, 1.0, 1.2, 1.5, 3.0 arcsec |
-|          ``fluxerr_aper_{ap}`` |                                                                                                  0.0 |
+|          ``fluxerr_aper_{ap}`` |                                                                                          Uncertainty |
 |             ``flag_aper_{ap}`` |                                                               ``sep`` flag for the circular aperture |
 |              ``bkg_aper_{ap}`` |                                                 Background that was removed within circular aperture |
 |             ``mask_aper_{ap}`` |                                                 number of masked pixels within the circular aperture |
