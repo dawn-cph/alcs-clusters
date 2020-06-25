@@ -43,4 +43,13 @@ RELICS
 |  Abell 2537|  23:08:22.23        |  -02:11:32.40    |  0.2966  | [j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Prep/j230824m0212.summary.html)      | [A2537_j230824m0212](https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/index.html)       |
 |  Abell 3192 |  03:58:53.07        | -29:55:44.75     |  0.4250  | [j035852m2956](https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Prep/j035852m2956.summary.html)      | [A3192_j035852m2956](https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/index.html)       |
 |  MACS0553 |  05:53:23.09         | -33:42:29.91    |  0.4300  | [j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Prep/j055324m3342.summary.html)      | [M0553_j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Photometry/index.html)       |
+|  RXC0600 |  06:00:09.77         | 20:08:08.94    |  0.4600  | [j060008m2008](https://s3.amazonaws.com/grizli-v1/Pipeline/j060008m2008/Prep/j060008m2008.summary.html)      | [RXC0600_j060008m2008](https://s3.amazonaws.com/grizli-v1/Pipeline/j060008m2008/Photometry/index.html)       |
+|  RXC0949 | 09:49:50.89         | 17:07:15.27    |  0.3826  | [j094952p1707](https://s3.amazonaws.com/grizli-v1/Pipeline/j094952p1707/Prep/j094952p1707.summary.html)      | [RXC0949_j094952p1707](https://s3.amazonaws.com/grizli-v1/Pipeline/j094952p1707/Photometry/index.html)       |
+
+| MACS0257|  02:57:10.24         | -23:26:11.84   |  0.5049  | [j025708m2326](https://s3.amazonaws.com/grizli-v1/Pipeline/j025708m2326/Prep/j025708m2326.summary.html)      | [M0257_j025708m2326](https://s3.amazonaws.com/grizli-v1/Pipeline/j025708m2326/Photometry/index.html)       |
+
+
+|  MACS0553 |  05:53:23.09         | -33:42:29.91    |  0.4300  | [j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Prep/j055324m3342.summary.html)      | [M0553_j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Photometry/index.html)       |
+|  MACS0553 |  05:53:23.09         | -33:42:29.91    |  0.4300  | [j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Prep/j055324m3342.summary.html)      | [M0553_j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Photometry/index.html)       |
+|  MACS0553 |  05:53:23.09         | -33:42:29.91    |  0.4300  | [j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Prep/j055324m3342.summary.html)      | [M0553_j055324m3342](https://s3.amazonaws.com/grizli-v1/Pipeline/j055324m3342/Photometry/index.html)       |
 |  ...        |         |       |     |                                                                                                                          |        |
