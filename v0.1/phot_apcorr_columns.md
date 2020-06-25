@@ -4,7 +4,8 @@ Columns in ``{field}_irac_phot_apcorr.fits``.
 All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 
 |                     Column     |                                                                                          Description |
-|     :--------------------:    |                                                         :------------------------------------------- |
+|     :--------------------:     |                                                         :------------------------------------------- |
+|                           ---  | ``sep`` *columns derived from the IR detection image*                                                |
 |                     ``thresh`` |                        See [sep.extract](https://sep.readthedocs.io/en/v1.0.x/api/sep.extract.html). |
 |                       ``npix`` |                                                                                                  ... |
 |                      ``tnpix`` |                                                                                                  ... |
@@ -65,15 +66,19 @@ All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 |             ``flag_aper_{ap}`` |                                                               ``sep`` flag for the circular aperture |
 |              ``bkg_aper_{ap}`` |                                                 Background that was removed within circular aperture |
 |             ``mask_aper_{ap}`` |                                                 number of masked pixels within the circular aperture |
+| ---                            | *Aperture measurements in each HST filter*                                                           |
 |      ``{filt}_flux_aper_{ap}`` |                                           Same as all ``aper`` columns above, but in each HST filter |
 |   ``{filt}_fluxerr_aper_{ap}`` |                                                                                                  ... |
 |      ``{filt}_flag_aper_{ap}`` |                                                                                                  ... |
 |       ``{filt}_bkg_aper_{ap}`` |                                                                                                  ... |
 |      ``{filt}_mask_aper_{ap}`` |                                                                                                  ... |
 |            ``{filt}_tot_corr`` |                                                                                                  ... |
-|                      ``dr_nn`` |                                                                 Distance to nearest neighbor, arcsec |
-|                    ``dmag_nn`` |                                                                   Magnitude difference with neighbor |
-|                      ``id_nn`` |                                                                                       ID of neighbor |
+|                ``apcorr_{ap}`` |                                                  Aperture correction: ``flux_auto / flux_aper_{ap}`` |
+|            ``{filt}_corr{ap}`` |                   Aperture-corrected flux, ``{filt}_corr_{ap} = {filt_flux_aper_{ap} * apcorr_{ap}`` |
+|          ``{filt}_ecorr_{ap}`` |                                                                                          Uncertainty |
+|            ``{filt}_tot_{ap}`` |       Total flux derived from the aperture, ``{filt}_tot_{ap} = {filt}_corr_{ap} * {filt}_tot_corr`` |
+|           ``{filt}_etot_{ap}`` |                                                                                          Uncertainty |
+| ---                            | *IRAC channel 3.6 and 4.5 µm photometry*                                                             |
 |              ``irac_ch1_nexp`` |                                                         Number of CH1 BCDs that cover a given object |
 |           ``irac_ch1_exptime`` |                                                                               IRAC CH1 exposure time |
 |              ``irac_ch1_flux`` |                                                                        IRAC CH1 flux density (total) |
@@ -86,11 +91,10 @@ All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 |               ``irac_ch2_err`` |                                                                                         uncertainity |
 |             ``irac_ch2_patch`` |                                                                                  ``golfir`` patch ID |
 |            ``irac_ch2_bright`` |                                                                        ``golfir`` Bright object flag |
-|                ``apcorr_{ap}`` |                                                  Aperture correction: ``flux_auto / flux_aper_{ap}`` |
-|            ``{filt}_corr{ap}`` |                   Aperture-corrected flux, ``{filt}_corr_{ap} = {filt_flux_aper_{ap} * apcorr_{ap}`` |
-|          ``{filt}_ecorr_{ap}`` |                                                                                          Uncertainty |
-|            ``{filt}_tot_{ap}`` |       Total flux derived from the aperture, ``{filt}_tot_{ap} = {filt}_corr_{ap} * {filt}_tot_corr`` |
-|           ``{filt}_etot_{ap}`` |                                                                                          Uncertainty |
+| ---                            | *Other columns*                                                                                      |
+|                      ``dr_nn`` |                                                                 Distance to nearest neighbor, arcsec |
+|                    ``dmag_nn`` |                                                                   Magnitude difference with neighbor |
+|                      ``id_nn`` |                                                                                       ID of neighbor |
 |                     ``z_spec`` |                                                               Spectroscopic redshift (empty for now) |
 |                  ``dummy_err`` |                                                                                             [ignore] |
 |                 ``dummy_flux`` |                                                                                             [ignore] |
