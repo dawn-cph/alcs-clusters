@@ -13,8 +13,7 @@ HST Frontier Fields (Cluster only)
 
 | Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
-|MACS 1149   |11:49:36.30 |22:23:58.10| 0.543| [j114936p2222](https://s3.amazonaws.com/grizli-v1/Pipeline/j114936p2222/Prep/j114936p2222.summary.html) | 
-[M1149_j114936p2222](https://s3.amazonaws.com/grizli-v1/j114936p2222/Photometry/files.txt)
+|MACS 1149   |11:49:36.30 |22:23:58.10| 0.543                  | [j114936p2222](https://s3.amazonaws.com/grizli-v1/Pipeline/j114936p2222/Prep/j114936p2222.summary.html)| [M1149_j114936p2222](https://s3.amazonaws.com/grizli-v1/j114936p2222/Photometry/files.txt)
 
 
 CLASH
