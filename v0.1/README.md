@@ -50,21 +50,20 @@ Data Products
 
 [Fields](./fields.md) summary.
 
--main photometry catalogue
+Main photometric catalog
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-	``{CHArGE id}_irac_phot_apcorr.fits``: [Columns](./phot_apcorr_columns)
+``{CHArGE id}_irac_phot_apcorr.fits``: [Columns](./phot_apcorr_columns.md)
 
--eazy output
+``eazy-py`` output
+~~~~~~~~~~~~~~~~~~
 
-	_irac.eazypy.zout.fits
+``{CHArGE id}_irac.eazypy.zout.fits``: [Columns](./zout_columns.md)
 
--irac photometry+aperture corrected HST photometry
+Combined catalog
+~~~~~~~~~~~~~~~~
 
-	_irac_phot_appcor
-
--combined photometry and eazy output
-
-	cat_combined.fits
+``cat_combined.fits``
 
 Methodology
 ============
