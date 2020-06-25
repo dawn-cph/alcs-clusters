@@ -1,11 +1,14 @@
-Columns in ``{field}_irac_phot_apcorr.fits``.
-=============================================
+## Notes
 
-All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
+- All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
+- Photometry **is not** corrected for Galactic extinction
+
+## Columns in ``{field}_irac_phot_apcorr.fits``.
+
 
 |                   *Column*     |                                                                                        *Description* |
 |     :--------------------:     |                                                         :------------------------------------------- |
-|                                | **Columns derived from the IR detection image**                                                      |
+|                                | **Columns derived from the IR detection image (``CHArGE`` / ``grizli``) **                           |
 |                     ``thresh`` |                        See [sep.extract](https://sep.readthedocs.io/en/v1.0.x/api/sep.extract.html). |
 |                       ``npix`` |                                                                                                  ... |
 |                      ``tnpix`` |                                                                                                  ... |
@@ -78,7 +81,7 @@ All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 |          ``{filt}_ecorr_{ap}`` |                                                                                          Uncertainty |
 |            ``{filt}_tot_{ap}`` |       Total flux derived from the aperture, ``{filt}_tot_{ap} = {filt}_corr_{ap} * {filt}_tot_corr`` |
 |           ``{filt}_etot_{ap}`` |                                                                                          Uncertainty |
-|                                | **IRAC channel 3.6 and 4.5 µm photometry**                                                           |
+|                                | **IRAC channel 3.6 and 4.5 µm photometry (``golfir``) **                                             |
 |              ``irac_ch1_nexp`` |                                                         Number of CH1 BCDs that cover a given object |
 |           ``irac_ch1_exptime`` |                                                                               IRAC CH1 exposure time |
 |              ``irac_ch1_flux`` |                                                                        IRAC CH1 flux density (total) |
