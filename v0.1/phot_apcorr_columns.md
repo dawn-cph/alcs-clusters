@@ -36,8 +36,8 @@ All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 |                      ``xpeak`` |                                                                                                  ... |
 |                      ``ypeak`` |                                                                                                  ... |
 |                       ``flag`` |                                                                                                  ... |
-|                    ``x_image`` |                                                                        unit-indexed image coordinate |
-|                    ``y_image`` |                                                                        unit-indexed image coordinate |
+|                    ``x_image`` |                                     unit-indexed image coordinate (``x`` and ``y`` are zero-indexed) |
+|                    ``y_image`` |                                                                                                  ... |
 |                         ``id`` |                                                                                    object identifier |
 |                         ``ra`` |                                                                                 Right Ascension, deg |
 |                        ``dec`` |                                                                                     Declination, deg |
