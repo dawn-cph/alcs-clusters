@@ -28,7 +28,7 @@ HST
 IRAC
 ~~~~
 
-- residuals
+-residuals
 
 General Information
 ===================
@@ -50,19 +50,19 @@ Data Products
 
 [Fields](./fields.md) summary.
 
-- main photometry catalogue
+-main photometry catalogue
 
 	``{CHArGE id}_irac_phot_apcorr.fits``: [Columns](./phot_apcorr_columns)
 
-- eazy output
+-eazy output
 
 	_irac.eazypy.zout.fits
 
-- irac photometry+aperture corrected HST photometry
+-irac photometry+aperture corrected HST photometry
 
 	_irac_phot_appcor
 
-- combined photometry and eazy output
+-combined photometry and eazy output
 
 	cat_combined.fits
 
