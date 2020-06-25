@@ -39,5 +39,8 @@ RELICS
 
 | Field       |   RA    |  Dec  |  z  |  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|--------------------------------------------------------------------------------------------------------------------------|--------|
-|  Abell 2744 |         |       |     | [hff-j001408m3023](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html)      |        |
+|  RXC0032|         | 00:32:11.05      |  8:07:49.03   | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
+|  RXC0032|         | 00:32:11.05      |  8:07:49.03   | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
+|  RXC0032|         | 00:32:11.05      |  8:07:49.03   | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
+|  RXC0032|         | 00:32:11.05      |  8:07:49.03   | [j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Prep/j003212p1808.summary.html)      | [RXC0032_j003212p1808](https://s3.amazonaws.com/grizli-v1/Pipeline/j003212p1808/Photometry/index.html)       |
 |  ...        |         |       |     |                                                                                                                          |        |
