@@ -4,7 +4,7 @@ Columns in ``{field}_irac_phot_apcorr.fits``.
 All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 
 |                     Column     |                                                                                          Description |
-|     ----------------------     |                                                         -------------------------------------------- |
+|     :--------------------:    |                                                         :------------------------------------------- |
 |                     ``thresh`` |                        See [sep.extract](https://sep.readthedocs.io/en/v1.0.x/api/sep.extract.html). |
 |                       ``npix`` |                                                                                                  ... |
 |                      ``tnpix`` |                                                                                                  ... |
