@@ -1,3 +1,51 @@
+###############################################
+#### Single HFF mosaics (cluster + parallel)
+###############################################
+# A2744_hff-j001408m3023 / hff-j001408m3023 (N = 13)
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/files.txt
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_sci.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_wht.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_model.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_sci.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_wht.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_model.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_cat_combined.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch1_residual.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_residual.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac.eazypy.zout.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot_apcorr.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_phot.fits
+# A370_hff-j024004m0136 / hff-j024004m0136 (N = 13)
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/files.txt
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch1_drz_sci.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch1_drz_wht.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch1_model.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch2_drz_sci.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch2_drz_wht.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch2_model.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_cat_combined.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_ch1_residual.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_ch2_residual.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_irac.eazypy.zout.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_irac_phot.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_irac_phot_apcorr.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_phot.fits
+# M0416_hff-j041620m2406 / hff-j041620m2406 (N = 13)
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/files.txt
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch1_drz_sci.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch1_drz_wht.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch1_model.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch2_drz_sci.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch2_drz_wht.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch2_model.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_cat_combined.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_ch1_residual.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_ch2_residual.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_irac.eazypy.zout.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_irac_phot.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_irac_phot_apcorr.fits
+https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_phot.fits
 # A1063_hff-j224900m4432 / hff-j224900m4432 (N = 13)
 https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/files.txt
 https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/j224900m4432-ch1_drz_sci.fits
@@ -13,6 +61,9 @@ https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/j224900m
 https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/j224900m4432_irac_phot.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/j224900m4432_irac_phot_apcorr.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j224900m4432/Photometry/j224900m4432_phot.fits
+############################################################
+#### Everything else, including HFF individual cluster fields
+#############################################################
 # A1063_j224844m4432 / j224844m4432 (N = 13)
 https://s3.amazonaws.com/grizli-v1/Pipeline/j224844m4432/Photometry/files.txt
 https://s3.amazonaws.com/grizli-v1/Pipeline/j224844m4432/Photometry/j224844m4432-ch1_drz_sci.fits
@@ -75,21 +126,6 @@ https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/j230824m0212
 https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/j230824m0212_irac_phot.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/j230824m0212_irac_phot_apcorr.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/j230824m0212/Photometry/j230824m0212_phot.fits
-# A2744_hff-j001408m3023 / hff-j001408m3023 (N = 13)
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/files.txt
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_sci.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_wht.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_model.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_sci.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_wht.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_model.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_cat_combined.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch1_residual.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_residual.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac.eazypy.zout.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot_apcorr.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_phot.fits
 # A2744_j001420m3024 / j001420m3024 (N = 13)
 https://s3.amazonaws.com/grizli-v1/Pipeline/j001420m3024/Photometry/files.txt
 https://s3.amazonaws.com/grizli-v1/Pipeline/j001420m3024/Photometry/j001420m3024-ch1_drz_sci.fits
@@ -135,21 +171,6 @@ https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/j035852m2956
 https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/j035852m2956_irac_phot.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/j035852m2956_irac_phot_apcorr.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/j035852m2956/Photometry/j035852m2956_phot.fits
-# A370_hff-j024004m0136 / hff-j024004m0136 (N = 13)
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/files.txt
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch1_drz_sci.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch1_drz_wht.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch1_model.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch2_drz_sci.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch2_drz_wht.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136-ch2_model.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_cat_combined.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_ch1_residual.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_ch2_residual.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_irac.eazypy.zout.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_irac_phot.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_irac_phot_apcorr.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/j024004m0136_phot.fits
 # A370_j023952m0135 / j023952m0135 (N = 13)
 https://s3.amazonaws.com/grizli-v1/Pipeline/j023952m0135/Photometry/files.txt
 https://s3.amazonaws.com/grizli-v1/Pipeline/j023952m0135/Photometry/j023952m0135-ch1_drz_sci.fits
@@ -255,21 +276,6 @@ https://s3.amazonaws.com/grizli-v1/Pipeline/j032940m0212/Photometry/j032940m0212
 https://s3.amazonaws.com/grizli-v1/Pipeline/j032940m0212/Photometry/j032940m0212_irac_phot.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/j032940m0212/Photometry/j032940m0212_irac_phot_apcorr.fits
 https://s3.amazonaws.com/grizli-v1/Pipeline/j032940m0212/Photometry/j032940m0212_phot.fits
-# M0416_hff-j041620m2406 / hff-j041620m2406 (N = 13)
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/files.txt
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch1_drz_sci.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch1_drz_wht.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch1_model.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch2_drz_sci.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch2_drz_wht.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406-ch2_model.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_cat_combined.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_ch1_residual.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_ch2_residual.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_irac.eazypy.zout.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_irac_phot.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_irac_phot_apcorr.fits
-https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/j041620m2406_phot.fits
 # M0416_j041608m2404 / j041608m2404 (N = 13)
 https://s3.amazonaws.com/grizli-v1/Pipeline/j041608m2404/Photometry/files.txt
 https://s3.amazonaws.com/grizli-v1/Pipeline/j041608m2404/Photometry/j041608m2404-ch1_drz_sci.fits
