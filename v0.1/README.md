@@ -1,14 +1,9 @@
 
-HST + IRAC v0.1
-===============
+# HST + IRAC v0.1
 
+# Contents of this Release
 
-Contents of this Release
-========================
-
-
-Images
-------
+## Images
 
 HST images automatically processed by the [Grizli](https://github.com/gbrammer/grizli)/CHArGE pipeline....
 
@@ -16,66 +11,57 @@ IRAC with [golfir](https://github.com/gbrammer/golfir)....
 
 -science and weight images
 
-Source Detection
-----------------
+## Source Detection
+TBD
 
-Photometry
-----------
+## Photometry
+TBD
 
-HST
-~~~
+### HST
 
-IRAC
-~~~~
+### IRAC
 
 -residuals
 
-General Information
-===================
+## General Information
 
-fields/
+``fields/``
 
 	directory with all the alcs fields
 
-fields/clu+par
+``fields/clu+par``
 
 	HFF cluster and parallel field photomtry (only for 4 clusters)
 
 -folder naming convention
 
-        {cluster name}_{CHArGE id}
+        ``{cluster name}_{CHArGE id}``
 
-Data Products
--------------
+## Data Products
 
 [Fields](./fields.md) summary.
 
-Main photometric catalog
-~~~~~~~~~~~~~~~~~~~~~~~~
+### Main photometric catalog
 
 ``{CHArGE id}_irac_phot_apcorr.fits``: [Columns](./phot_apcorr_columns.md)
 
-``eazy-py`` output
-~~~~~~~~~~~~~~~~~~
+### ``eazy-py`` output
 
 ``{CHArGE id}_irac.eazypy.zout.fits``: [Columns](./zout_columns.md)
 
-Combined catalog
-~~~~~~~~~~~~~~~~
+### Combined catalog
 
 ``cat_combined.fits``
 
-Methodology
-============
+# Methodology
 
-Source Detection
-----------------
+## Source Detection
 
 Extraction of IRAC sources was performed by using finely aligned HST f160w and IRAC images. We model IRAC fluxes based on the H-band prior positions and fluxes with [golfir](https://github.com/gbrammer/golfir). We mask all objects <15 mag and set a s/n=30 threshold for masked pixels of bright objects. We additionally refit all sources brighter than 20 uJy with galfit.
 
 
-Photometric Redshifts
----------------------
+## Photometric Redshifts
+
 Photometric Redshift is computed using [EAZY](https://github.com/gbrammer/eazy-py) with the default template library. We provide the best fit photometric redshift for each object,
 as well as the corresponding Chi2.
 
