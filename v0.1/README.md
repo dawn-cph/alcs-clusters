@@ -100,7 +100,7 @@ available within the [scripts](./scripts) folder.
 
 # Catalog Verification
 
-A [document](./abell2744_test.pdf) containing test for Abell 2744 photometry and its comparison to the
+A [document](./test_report.pdf) containing test for Abell 2744 photometry and its comparison to the
 [Shipley et al. (2018)](https://ui.adsabs.harvard.edu/abs/2018ApJS..235...14S)
 / [[HFFDS]](http://cosmos.phy.tufts.edu/~danilo/HFF/Home.html) and the
 Astrodeep ([Merlin et al.
