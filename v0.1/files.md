@@ -3,6 +3,13 @@
 
 # Contents of this Release
 
+A summary of the HST and IRAC data products provided by this release is provided below.  
+
+A few identified issues with the v0.1 release as provided are listed in the
+GitHub [issues](https://github.com/dawn-cph/alcs-clusters/issues) age.
+**Please feel free to log any additional issues you find there**.
+
+
 ## Hubble optical and near-IR images
 
 The HST mosaics are all available on the individual CHArGE summary pages, for
@@ -99,21 +106,6 @@ Astrodeep ([Merlin et al.
 2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...590A..30M), [Castellano et
 al. 2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...590A..31C)) catalogues is
 available in this repository.
-
-## Known Issues
-
-### 2020-06-26
-
- - IRAC residual images are inverted (``model - data``).
-  
- - In the comparison with Shipley et al., we find that
-   the *H*-band magnitudes and IRAC colours show good agreement, while there
-   exists a 0.3 mag offset in the IRAC band where the Shipley et al.
-   measurements are 0.3 mag fainter. However in the comparison with Astrodeep
-   catalogue, the offset is reduced significantly, which can by explained by
-   scatter. Currently, it is hard to conclude which catalogue values are the
-   most reliable. We thus do not apply any corrections to our v0.1 catalogue
-   related to this offset.
 
 
 

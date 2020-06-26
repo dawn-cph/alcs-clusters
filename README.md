@@ -7,6 +7,6 @@ HST + IRAC catalogs in lensing cluster fields
 
 Contacts:
 
-Vasily Kokorev:  vasilii.kokorev@nbi.ku.dk
+Vasily Kokorev:  @VasilyKokorev / vasilii.kokorev@nbi.ku.dk
 
-Gabriel Brammer: gabriel.brammer@nbi.ku.dk
+Gabriel Brammer: @gbrammer / gabriel.brammer@nbi.ku.dk
