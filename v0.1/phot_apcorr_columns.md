@@ -1,7 +1,8 @@
 ## Notes
 
 - All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
-- Photometry **is not** corrected for Galactic extinction
+- Photometry **is not** corrected for Galactic extinctions
+- Missing data (e.g., filter coverage doesn't overlap) indicated with flux/error ``-99``.
 
 ## Columns in ``{field}_irac_phot_apcorr.fits``.
 
