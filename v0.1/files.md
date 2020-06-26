@@ -94,7 +94,7 @@ available within the [scripts](./scripts) folder.
 
 A document containing test for Abell 2744 photometry and its comparison to the
 [Shipley et al. (2018)](https://ui.adsabs.harvard.edu/abs/2018ApJS..235...14S)
-[[HFFDS]](http://cosmos.phy.tufts.edu/~danilo/HFF/Home.html)) and the
+/ [[HFFDS]](http://cosmos.phy.tufts.edu/~danilo/HFF/Home.html) and the
 Astrodeep catalogue ([Merlin et al.
 2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...590A..30M), [Castellano et
 al. 2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...590A..31C)) is
