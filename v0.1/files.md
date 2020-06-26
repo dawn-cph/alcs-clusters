@@ -53,7 +53,7 @@ with ``curl`` or ``wget``.
 | [``j001408m3023_irac_phot_apcorr.fits``     ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot_apcorr.fits  ) | "" and aperture corrections (**use this**).  [Column description](./phot_apcorr_columns.md). |
 | [``j001408m3023_irac.eazypy.zout.fits``     ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac.eazypy.zout.fits  ) | Photometric redshifts and population parameters.  [Column description](./zout_columns.md). |
 
-## Fields
+## Survey Fields
 
 We have processed all 33 ALCS cluster fields, summarized [here](./fields.md).
 The fields are generally named based on the rough coordinate center following
