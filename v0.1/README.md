@@ -72,6 +72,9 @@ optical/UV images are drizzled to 2x2 subsampled 0.05" grid.
 
 ### IRAC
 
+The script that was used to process the archival data and create the mosaics
+can be found in the scripts folder [here](./scripts/alcs_mosaic.ipynb)
+
 ## Source Detection
 
 ## Photometry
@@ -96,7 +99,7 @@ We provide the best fit photometric redshift for each object, as well as the
 corresponding Chi2.
 
 Scripts for both photometry and the photometric redshifts (photoz) are
-available within the [scripts](./scripts) folder.
+available within the [scripts](./scripts/alcs_photometry.ipynb) folder.
 
 # Catalog Verification
 
