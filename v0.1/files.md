@@ -33,7 +33,6 @@ Note that a full list of all of the IRAC products can be found at
 [all_files.v0.1.txt](./all_files.v0.1.txt), suitable for automatic retrieval
 with ``curl`` or ``wget``.
 
-
 | File       |    Description  |
 | -------    |    -----------  |
 | [``j001408m3023-ch1_drz_sci.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_sci.fits       ) | IRAC ch1 science mosaic |
@@ -59,9 +58,19 @@ the CHArGE convention, e.g., ``j001408m3023`` for Abell 2744 products shown abov
 
 Full description here TBD.
 
-## Mosaic Creation
+## Image Mosaics
+
+### HST
+
+### IRAC
 
 ## Source Detection
+
+## Photometry
+
+### HST
+
+### IRAC
 
 Extraction of IRAC sources was performed by using finely aligned HST f160w and
 IRAC images. We model IRAC fluxes based on the H-band prior positions and
@@ -69,11 +78,7 @@ fluxes with [golfir](https://github.com/gbrammer/golfir). We mask all objects
 <15 mag and set a ``S/N=30`` threshold for masked pixels of bright objects. We
 additionally refit all sources brighter than 20 uJy with galfit.
 
-## Photometry
-
-### HST
-
-### IRAC
+#### IRAC PSF
 
 ## Photometric Redshifts
 
@@ -88,22 +93,27 @@ available within the [scripts](./scripts) folder.
 # Catalog Verification
 
 A document containing test for Abell 2744 photometry and its comparison to the
-Shipley et al. (2018) and the Astrodeep catalogue (Merlin et al. 2016,
-Castellano et al. 2016) is available in the repository.
+[Shipley et al. (2018)](https://ui.adsabs.harvard.edu/abs/2018ApJS..235...14S)
+[[HFFDS]](http://cosmos.phy.tufts.edu/~danilo/HFF/Home.html)) and the
+Astrodeep catalogue ([Merlin et al.
+2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...590A..30M), [Castellano et
+al. 2016](https://ui.adsabs.harvard.edu/abs/2016A%26A...590A..31C)) is
+available in this repository.
 
 ## Known Issues
 
 ### 2020-06-26
 
  - IRAC residual images are inverted (``model - data``).
-
- - In the comparison with Shipley et al. (2018), we find that the *H*-band
-magnitudes and IRAC colours show good agreement, while there exists a 0.3 mag
-offset in the IRAC band where the Shipley et al. measurements are 0.3 mag
-fainter. However in the comparison with Astrodeep catalogue, the offset is
-reduced significantly, which can by explained by scatter. Currently, it is
-hard to conclude which catalogu evalues are the most reliable. We thus do not
-apply any corrections to our v0.1 catalogue related to this offset.
+  
+ - In the comparison with Shipley et al., we find that
+   the *H*-band magnitudes and IRAC colours show good agreement, while there
+   exists a 0.3 mag offset in the IRAC band where the Shipley et al.
+   measurements are 0.3 mag fainter. However in the comparison with Astrodeep
+   catalogue, the offset is reduced significantly, which can by explained by
+   scatter. Currently, it is hard to conclude which catalogue values are the
+   most reliable. We thus do not apply any corrections to our v0.1 catalogue
+   related to this offset.
 
 
 
