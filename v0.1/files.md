@@ -3,11 +3,11 @@
 
 # Contents of this Release
 
-A summary of the HST and IRAC data products provided by this release is provided below.  
+A summary of the HST and IRAC data products provided by this release is given below.  
 
 A few identified issues with the v0.1 release as provided are listed in the
-GitHub [issues](https://github.com/dawn-cph/alcs-clusters/issues) age.
-**Please feel free to log any additional issues you find there**.
+GitHub [issues](https://github.com/dawn-cph/alcs-clusters/issues) page.
+**Please log any additional issues you find there so that they can be logged and addressed efficiently.**
 
 
 ## Hubble optical and near-IR images
@@ -15,8 +15,6 @@ GitHub [issues](https://github.com/dawn-cph/alcs-clusters/issues) age.
 The HST mosaics are all available on the individual CHArGE summary pages, for
 example
 [hff-j001408m3023.summary.html](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html).
-All WFC3/IR mosaics are created with 0.1" pixels, while the ACS and UVIS
-optical/UV images are drizzled to 2x2 subsampled 0.05" grid.
  
 These include files like the following, with additional files for all of the separate HST filters as listed on the page.
 
@@ -68,6 +66,9 @@ Full description here TBD.
 ## Image Mosaics
 
 ### HST
+
+All WFC3/IR mosaics are created with 0.1" pixels, while the ACS and UVIS
+optical/UV images are drizzled to 2x2 subsampled 0.05" grid.
 
 ### IRAC
 
