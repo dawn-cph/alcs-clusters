@@ -1,5 +1,6 @@
-HST Frontier Fields (Cluster+Parallel)
-===================
+# HST Frontier Fields (Cluster+Parallel)
+
+Note slightly different naming convention for combined HFF fields here.
 
 | Field       |   RA    |  Dec  |  z  | E(B-V)|  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|------|--------------------------------------------------------------------------------------------------------------------------|--------|
@@ -8,16 +9,14 @@ HST Frontier Fields (Cluster+Parallel)
 | Abell 370|      02:39:52.9    | -01:34:36.50               | 0.375| 0.032 | [hff-j024004m0136](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Prep/hff-j024004m0136.summary.html) | [A370_hff-j024004m0136](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j024004m0136/Photometry/index.html)  |
 |   MACS0416    | 04:16:08.90        |  -24:04:28.70     | 0.396    |0.041 |    [hff-j041620m2406](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Prep/hff-j041620m2406.summary.html) | [M0416_hff-j041620m2406](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j041620m2406/Photometry/index.html)      |
 
-HST Frontier Fields (Cluster only)
-===================
+# HST Frontier Fields (Cluster only)
 
 | Field       |   RA    |  Dec  |  z  | E(B-V)| HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|------|--------------------------------------------------------------------------------------------------------------------------|--------|
 |MACS1149   |11:49:36.30 |22:23:58.10| 0.543   |       0.023        | [j114936p2222](https://s3.amazonaws.com/grizli-v1/Pipeline/j114936p2222/Prep/j114936p2222.summary.html)| [M1149_j114936p2222](https://s3.amazonaws.com/grizli-v1/Pipeline/j114936p2222/Photometry/index.html)
 
 
-CLASH
-=====
+# CLASH
 
 | Field       |   RA    |  Dec  |  z  |E(B-V)|  HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|-------|-------------------------------------------------------------------------------------------------------------------|--------|
@@ -34,8 +33,8 @@ CLASH
 |  MACS2129      |  21:29:26.21     |  -07:41:26.22    | 0.570    | 0.076 | [j212928m0741](https://s3.amazonaws.com/grizli-v1/Pipeline/j212928m0741/Prep/j212928m0741.summary.html) | [M2129_j212928m0741](https://s3.amazonaws.com/grizli-v1/Pipeline/j212928m0741/Photometry/index.html)|
 |  Abell 209      |  01:31:52.5      |  -13:36:38.80      | 0.206    | 0.019 | [j013152m1337](https://s3.amazonaws.com/grizli-v1/Pipeline/j013152m1337/Prep/j013152m1337.summary.html) | [A209_j013152m1337](https://s3.amazonaws.com/grizli-v1/Pipeline/j013152m1337/Photometry/index.html)|
 
-RELICS
-======
+# RELICS
+
 
 | Field       |   RA    |  Dec  |  z  | E(B-V)| HST                                                                                                                     |  IRAC  |
 |-------------|---------|-------|-----|-------|-------------------------------------------------------------------------------------------------------------------|--------|
