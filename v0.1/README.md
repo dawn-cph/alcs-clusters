@@ -125,7 +125,7 @@ All source detection and aperture photometry is performed with the SourceExtract
 | ``BACK_FILTERSIZE`` 	|  4 arcsec 	| 
 | ``BACK_FILTER``   	|  3 			| 
 | ``FILTER`` 			|  Y 			| 
-| ``FILTER_NAME`` 		|  F160W PSF matched kernel [(see Barak & Ofek, 2017)](https://ui.adsabs.harvard.edu/abs/2017ApJ...836..187Z)  |	 
+| ``FILTER_NAME`` 		|  matched kernel from F160W PSF [(see Barak & Ofek, 2017)](https://ui.adsabs.harvard.edu/abs/2017ApJ...836..187Z)  |	 
 | ``CLEAN``   			|  Y 			| 
 | ``DEBLEND_CONT``   	|  0.001 		| 
 | ``DEBLEND_NTHRESH``  	|  32 			| 
