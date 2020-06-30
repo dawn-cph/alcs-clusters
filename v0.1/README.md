@@ -67,25 +67,25 @@ the CHArGE convention, e.g., ``j001408m3023`` for Abell 2744 products shown abov
 
 All HST data are processed with the ``grizli`` pipeline, which creates filter mosaics for all ACS, WFC3/UVIS and WFC3/IR exposures that cover a given area of the sky (e.g., an ALCS field).  The methodology is essentially as described in the ``grizli`` demonstration [notebook](https://github.com/gbrammer/grizli/blob/master/examples/Grizli-Pipeline.ipynb).
 
-1. Visits"
+1. **"Visits"**
 
 The overlapping exposures are broken into discrete ``visit`` associations, similar to the definition as in the APT Phase II file, but more generally grouping exposures in a given filter that were taken in a single target acquisition.  These associations generally share the same spacecraft orient and (zodi) sky background.
 
-2. Astrometric alignment
+2. **Astrometric alignment**
 
 - All exposures in a ``visit`` are aligned to each other using high S/N sources detected in them, allowing ``x`` and ``y`` shifts between them.  These are analogous to DrizzlePac ``TweakShifts`` and are generally a fairly small fraction of a pixel for dither offsets within a single orbit and a few tenths of a pixel between subsequent orbits that share the same initial target acquisition. [example log file](https://s3.amazonaws.com/grizli-v1/Pipeline/j060008m2008/Prep/rxc-j0600.1-2007-czg-k2-224.0-f160w_shifts.log)
 
 - A source catalog is created from a preliminary mosaic generated from the ``visit`` exposures and aligned (shift, rotation, scale) to some user-provided astrometric reference catalog.  Generally this is PanSTARRS DR1 as it is well aligned to the GAIA DR2 but has a higher source density than the bright GAIA stars alone. [example log](https://s3.amazonaws.com/grizli-v1/Pipeline/j060008m2008/Prep/rxc-j0600.1-2007-czg-k2-224.0-f160w_wcs.log)
 
-- A final fine alignment is performed simultaneously optimizing *a)* alignment between all of the individual visit catalogs and *b)* GAIA DR2 stars with proper motions projected to each visit observation epoch ([example diagnostic figure](https://s3.amazonaws.com/grizli-v1/Pipeline/j060008m2008/Prep/j060008m2008_fine.png)).  This ensures robust internal alignment of the HST images for matched-aperture photometry and the final absolute astrometric precision is generally <100 mas.
+- A final fine alignment is performed simultaneously optimizing *a)* alignment between all of the individual visit catalogs and *b)* GAIA DR2 stars with proper motions projected to each visit observation epoch.  This ensures robust internal alignment of the HST images for matched-aperture photometry and the final absolute astrometric precision is generally <100 mas. [example diagnostic figure](https://s3.amazonaws.com/grizli-v1/Pipeline/j060008m2008/Prep/j060008m2008_fine.png)
 
-3. Background subtraction
+3. **Background subtraction**
 
 - A pedestal sky background of each exposure is estimated in the ``AstroDrizzle`` preparation of each visit association.  
 
 - A smooth background is subtracted from each visit mosaic to remove gradients that can then appear as sharp discontinuities in the final combined filter mosaics.  This background is estimated with the ``sep`` software analogous to ``SourceExtractor`` with ``BACK_FILTERSIZE = 3`` and ``BACK_SIZE = 32 arcsec``.  While the background estimation includes a mask for detected sources, it can include extended structure for very large, bright galaxies and ICL in the ALCS cluster fields.
 
-4. Final mosaics
+4. **Final mosaics**
 
 Final rectified mosaics combining all exposures in each available filter are created with ``AstroDrizzle``.  All WFC3/IR mosaics are created with 0.1" pixels, while the ACS and UVIS optical/UV images are drizzled with 0.05" pixels on a grid that subsamples the IR mosaic 2x2.  Both optical and IR mosaics are drizzled with ``pixfrac = 0.33``.  There are ``sci`` (science) and ``wht`` (inverse variance weights) mosaics provided for each filter.
 
@@ -93,7 +93,7 @@ This is not the most aggressive pixel size for trying to reconstruct the undersa
 
 The units of the filter mosaics are ``electrons / s``, with the photometric calibration to CGS units provided in the ``PHOTFLAM`` (f-lambda) and ``PHOTFNU`` (f-nu) header keywords.
 
-5. IR PSFs
+5. **WFC3/IR PSFs**
 
 We provide PSF models for each IR filter using the effective PSF models created by Jay Anderson at STScI (https://www.stsci.edu/~jayander/STDPSFs/;  [Anderson & King 2000](https://ui.adsabs.harvard.edu/abs/2000PASP..112.1360A/abstract)).
 
@@ -138,13 +138,13 @@ All source detection and aperture photometry is performed with the SourceExtract
 
 The [photometric catalog](./phot_apcorr_columns.md) provides a number of diagnostic columns related to the ``sep`` source detection.  
 
-1. Aperture fluxes
+1. **Aperture fluxes**
 
 We extract aperture photometry within (circular) aperture diameters 0.36, 0.5, 0.7, 1.0, 1.2, 1.5, 3.0 arcsec at the positions derived in the source detection as described above. 
 
-**We do not PSF-match any HST filters for the aperture measurements**.  We feel that blindly "PSF-matching" images before has deleterious effects on the noise properties of the derived photometry, particularly for faint sources/dropouts where there is truly no signal to "match".  We therefore favor the approach here primarily for simplicity and defer tests on the aperture effects to ongoing work.
+**We do not PSF-match any HST filters for the aperture measurements**.  We feel that blindly "PSF-matching" images has serious deleterious effects on the noise properties of the derived photometry, particularly for faint sources/dropouts where there is truly no signal to "match".  We therefore favor the approach here primarily for simplicity and defer tests on the aperture effects to ongoing work.
 
-2. Aperture corrections (Kron, ``FLUX_AUTO``)
+2. **Aperture corrections**
 
 The "total" HST flux is defined within an elliptical Kron aperture determined by [sep](https://sep.readthedocs.io/en/v1.0.x/apertures.html), as in [SourceExtractor](https://sextractor.readthedocs.io/en/latest/Photom.html#automatic-aperture-flux-flux-auto).  However, we do not impose the lower limit of 3.5 on ``KRON_RADIUS`` typical with SourceExtractor as we find that in fact most derived values are actually lower than this threshold even for bright, well-measured sources.  We do, however, impose a minimum circularized Kron aperture diameter of 0.7 arcsec, which is our favored "color" aperture.  We calculate a correction for flux outside of the Kron aperture using the PSF curves of growth (i.e., explicitly valid only for point sources).  The "color" aperture fluxes are therefore corrected by 1) ``flux_auto`` / ``flux_aper`` in the detection band and then 2) by the Kron aperture correction.
 
