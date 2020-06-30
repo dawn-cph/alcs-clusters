@@ -65,7 +65,7 @@ the CHArGE convention, e.g., ``j001408m3023`` for Abell 2744 products shown abov
 
 ### HST
 
-All HST data are processed with the ``grizli`` pipeline, which creates filter mosaics for all ACS, WFC3/UVIS and WFC3/IR exposures that cover a given area of the sky (e.g., an ALCS field).  The methodology is essentially as described in the ``grizli`` demonstration [notebook](https://github.com/gbrammer/grizli/blob/master/examples/Grizli-Pipeline.ipynb).
+All HST data are processed with the ``grizli`` pipeline, which creates filter mosaics for all ACS, WFC3/UVIS and WFC3/IR exposures that cover a given area of the sky (e.g., an ALCS field).  The methodology is essentially as described in the ``grizli`` [demonstration notebook](https://github.com/gbrammer/grizli/blob/master/examples/Grizli-Pipeline.ipynb).
 
 1. **"Visits"**
 
