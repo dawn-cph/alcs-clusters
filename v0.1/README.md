@@ -151,7 +151,7 @@ The "total" HST flux is defined within an elliptical Kron aperture determined by
 
 ### IRAC
 
-The low resolution IRAC mosaics generally require source-fitting photometry to account for overlapping sources, particularly at the source densities in the deep ALCS cluster fields.  We perform IRAC modelling with a custom code ([golfir](https://github.com/gbrammer/golfir)) inspired on earlier efforts like [Labbe et al. (2015)](https://ui.adsabs.harvard.edu/abs/2015ApJS..221...23L) and [T-Phot](http://www.astrodeep.eu/t-phot/) [(Merlin et al.)](https://ui.adsabs.harvard.edu/abs/2015A%26A...582A..15M).  The methodology is as follows:
+The low resolution IRAC mosaics generally require source-fitting photometry to account for overlapping sources, particularly at the source densities in the deep ALCS cluster fields.  We perform IRAC modelling with a custom code—([golfir](https://github.com/gbrammer/golfir))—inspired on earlier efforts like [Labbe et al. (2015)](https://ui.adsabs.harvard.edu/abs/2015ApJS..221...23L) and [T-Phot](http://www.astrodeep.eu/t-phot/) [(Merlin et al.)](https://ui.adsabs.harvard.edu/abs/2015A%26A...582A..15M).  The methodology is as follows:
 
 1. We first break up the mosaics into "patches" for the source modeling.  There is a small overlap between the patches to ensure that all sources are fully contained in at least one patch.
 
