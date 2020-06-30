@@ -163,7 +163,7 @@ The low resolution IRAC mosaics generally require source-fitting photometry to a
 
 5. We perform an additional fit of sources brighter than 20 uJy with GALFIT using a single Sersic model.  This often significantly improves the IRAC residuals, which is likely a combination of 1) an imperfect transformation between the HST and IRAC PSFs and 2) true morphological differences between F160W and the IRAC bands (i.e., color gradients).  We note that we are not interested in the GALFIT parameters, but rather in the best empirical description of each IRAC morphological component.   We do not adopt the "mag" of the GALFIT fit but rather refit the model normalizations and covariances as in step **4** but now using the GALFIT model cutouts in place of the HST-based models for the sources that have them.
 
-6. As the IRAC fluxes are already based on full model fits, we consider them to be on the same "total" scale as the aperture-corrected HST photometry.
+6. As the IRAC fluxes are based on morphological model fits, we consider them to be on the same "total" scale as the aperture-corrected HST photometry.
 
 ## Photometric Redshifts
 
