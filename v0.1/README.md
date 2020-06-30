@@ -121,7 +121,7 @@ For the HST-selected source catalogs, we first create a master detection image f
 All source detection and aperture photometry is performed with the SourceExtractor clone ``sep``, with the following parameters:
 
 | Parameter | Value | 
-| :--------:  | :-----: |
+| :--------  | :----- |
 | ``BACK_FILTERSIZE`` 	|  4 arcsec 	| 
 | ``BACK_FILTER``   	|  3 			| 
 | ``FILTER`` 			|  Y 			| 
