@@ -95,7 +95,7 @@ The units of the filter mosaics are ``electrons / s``, with the photometric cali
 
 5. **WFC3/IR PSFs**
 
-We provide PSF models for each IR filter using the effective PSF models created by Jay Anderson at STScI (https://www.stsci.edu/~jayander/STDPSFs/;  [Anderson & King 2000](https://ui.adsabs.harvard.edu/abs/2000PASP..112.1360A/abstract)).
+We provide PSF models for each IR filter using the effective PSF models created by Jay Anderson at STScI ([Anderson & King 2000](https://ui.adsabs.harvard.edu/abs/2000PASP..112.1360A/abstract); https://www.stsci.edu/~jayander/STDPSFs/).
 
 ### IRAC
 
