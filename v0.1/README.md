@@ -43,11 +43,14 @@ with ``curl`` or ``wget``.
 | [``j001408m3023-ch1_drz_sci.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_sci.fits       ) | IRAC ch1 science mosaic |
 | [``j001408m3023-ch1_drz_wht.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_wht.fits       ) | IRAC ch1 inverse variance |
 | [``j001408m3023-ch1_model.fits``            ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_model.fits         ) | IRAC ch1 model image |
+| [``j001408m3023_ch1_components.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch1_components.fits      ) | IRAC ch1 model components |
 | [``j001408m3023_ch1_residual.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch1_residual.fits      ) | IRAC ch1 model residual |
 | [``j001408m3023-ch2_drz_sci.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_sci.fits       ) | IRAC ch2 science mosaic |
 | [``j001408m3023-ch2_drz_wht.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_wht.fits       ) | IRAC ch2 inverse variance |
 | [``j001408m3023-ch2_model.fits``            ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_model.fits         ) | IRAC ch2 model image |
+| [``j001408m3023_ch2_components.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_components.fits      ) | IRAC ch2 model components |
 | [``j001408m3023_ch2_residual.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_residual.fits      ) | IRAC ch2 model residual |
+| ``r[AOR]-ch[12].log.fits``      | Exposure information for IRAC AORs used to generate PSFs |
 | [``j001408m3023_phot.fits``                 ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_phot.fits              ) | HST matched-aperture catalog |
 | [``j001408m3023_irac_phot.fits``            ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot.fits         ) | "" with IRAC model photometry |
 | [``j001408m3023_irac_phot_apcorr.fits``     ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot_apcorr.fits  ) | "" and aperture corrections (**use this**).  [Column description](./phot_apcorr_columns.md). |
