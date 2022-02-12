@@ -119,7 +119,7 @@ can be found in the scripts folder [here](./scripts/alcs_mosaic.ipynb).
 
 ## Source Detection
 
-For the HST-selected source catalogs, we first create a master detection image from all available *WFC3/IR*  filters of a given field, where the filters mosaics are weighted by the ``wht`` maps and the ``f-nu`` calibration that therefore favors redder filters for potential z>10 dropouts.
+For the HST-selected source catalogs, we first create a master detection image from all available *ACS* and *WFC3/IR*  filters of a given field, where the filters mosaics are weighted by the ``wht`` maps and the ``f-nu`` calibration that therefore favors redder filters for potential z>10 dropouts.
 
 All source detection and aperture photometry is performed with the SourceExtractor clone ``sep``, with the following parameters:
 
