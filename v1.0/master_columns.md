@@ -88,48 +88,10 @@
 | ``flux_iso``| Isophotal flux within the segmentation polygon|
 | ``fluxerr_iso``| Uncertainty|
 | ``area_iso``| Area of the isophotal region|
-| ``f105w_flux_aper``| HST WFC3/IR F105W flux density, D=0.7 arcsec aperture|
-| ``f105w_fluxerr_aper``| HST WFC3/IR F105W flux uncertainty, D=0.7 arcsec aperture|
-| ``f125w_flux_aper``| HST WFC3/IR F125W flux density, D=0.7 arcsec aperture|
-| ``f125w_fluxerr_aper``| HST WFC3/IR F125W flux uncertainty, D=0.7 arcsec aperture|
-| ``f140w_flux_aper``| HST WFC3/IR F140W flux density, D=0.7 arcsec aperture|
-| ``f140w_fluxerr_aper``| HST WFC3/IR F140W flux uncertainty, D=0.7 arcsec aperture|
-| ``f160w_flux_aper``| HST WFC3/IR F160W flux density, D=0.7 arcsec aperture|
-| ``f160w_fluxerr_aper``| HST WFC3/IR F160W flux uncertainty, D=0.7 arcsec aperture|
-| ``f275wu_flux_aper``| HST WFC3/UVIS F275W flux density, D=0.7 arcsec aperture|
-| ``f275wu_fluxerr_aper``| HST WFC3/UVIS F275W flux uncertainty, D=0.7 arcsec aperture|
-| ``f336wu_flux_aper``| HST WFC3/UVIS F336W flux density, D=0.7 arcsec aperture|
-| ``f336wu_fluxerr_aper``| HST WFC3/UVIS F336W flux uncertainty, D=0.7 arcsec aperture|
-| ``f435w_flux_aper``| HST ACS/WFC F435W flux density, D=0.7 arcsec aperture|
-| ``f435w_fluxerr_aper``| HST ACS/WFC F435W flux uncertainty, D=0.7 arcsec aperture|
-| ``f606w_flux_aper``| HST ACS/WFC F606W flux density, D=0.7 arcsec aperture|
-| ``f606w_fluxerr_aper``| HST ACS/WFC F606W flux uncertainty, D=0.7 arcsec aperture|
-| ``f814w_flux_aper``| HST ACS/WFC F814W flux density, D=0.7 arcsec aperture|
-| ``f814w_fluxerr_aper``| HST ACS/WFC F814W flux uncertainty, D=0.7 arcsec aperture|
-| ``f127m_flux_aper``| HST WFC3/IR F127M flux density, D=0.7 arcsec aperture|
-| ``f127m_fluxerr_aper``| HST WFC3/IR F127M flux uncertainty, D=0.7 arcsec aperture|
-| ``f139m_flux_aper``| HST WFC3/IR F139M flux density, D=0.7 arcsec aperture|
-| ``f139m_fluxerr_aper``| HST WFC3/IR F139M flux uncertainty, D=0.7 arcsec aperture|
-| ``f153m_flux_aper``| HST WFC3/IR F153M flux density, D=0.7 arcsec aperture|
-| ``f153m_fluxerr_aper``| HST WFC3/IR F153M flux uncertainty, D=0.7 arcsec aperture|
-| ``f105w_flux``| Total HST WFC3/IR F105W flux density|
-| ``f105w_err``| Total HST WFC3/IR F105W flux uncertainty|
-| ``f125w_flux``| Total HST WFC3/IR F125W flux density|
-| ``f125w_err``| Total HST WFC3/IR F125W flux uncertainty|
-| ``f140w_flux``| Total HST WFC3/IR F140W flux density|
-| ``f140w_err``| Total HST WFC3/IR F140W flux uncertainty|
-| ``f160w_flux``| Total HST WFC3/IR F160W flux density|
-| ``f160w_err``| Total HST WFC3/IR F160W flux uncertainty|
-| ``f275wu_flux``| Total HST WFC3/UVIS F275W flux density|
-| ``f275wu_err``| Total HST WFC3/UVIS F275W flux uncertainty|
-| ``f336wu_flux``| Total HST WFC3/UVIS F336W flux density|
-| ``f336wu_err``| Total HST WFC3/UVIS F336W flux uncertainty|
-| ``f435w_flux``| Total HST ACS/WFC F435W flux density|
-| ``f435w_err``| Total HST ACS/WFC F435W flux uncertainty|
-| ``f606w_flux``| Total HST ACS/WFC F606W flux density|
-| ``f606w_err``| Total HST ACS/WFC F606W flux uncertainty|
-| ``f814w_flux``| Total HST ACS/WFC F814W flux density|
-| ``f814w_err``| Total HST ACS/WFC F814W flux uncertainty|
+| ``{filt}_flux_aper``| HST WFC3/IR, WFC3/UVIS or ACS/WFC flux density, D=0.7 arcsec aperture|
+| ``{filt}_fluxerr_aper``| HST WFC3/IR, WFC3/UVIS or ACS/WFC flux uncertainty, D=0.7 arcsec aperture|
+| ``{filt}_flux``| Total HST WFC3/IR, WFC3/UVIS or ACS/WFC flux density|
+| ``{filt}_err``| Total HST WFC3/IR, WFC3/UVIS or ACS/WFC flux uncertainty|
 | ``irac_ch1_nexp``| Number of IRAC exposures covering the source in CH1|
 | ``irac_ch1_exptime``| Total exposure time in CH1|
 | ``irac_ch1_flux``| IRAC CH1 model flux|
