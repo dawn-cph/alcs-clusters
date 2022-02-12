@@ -3,7 +3,9 @@ HST + IRAC catalogs in lensing cluster fields
 
 # Data Releases
 
-[v0.1](v0.1/README.md) - First release of HST + IRAC images and photometry
+Updated to version 1.0.
+
+[v1.0](v1.0/README.md) - First release of HST + IRAC images and photometry
 
 Contacts:
 
