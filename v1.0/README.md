@@ -5,7 +5,7 @@
 
 A summary of the HST and IRAC data products provided by this release is given below.  
 
-A few identified issues with the v0.1 release as provided are listed in the
+A few identified issues with the v1.0 release as provided are listed in the
 GitHub [issues](https://github.com/dawn-cph/alcs-clusters/issues) page.
 **Please log any additional issues you find there so that they can be logged and addressed efficiently.**
 
