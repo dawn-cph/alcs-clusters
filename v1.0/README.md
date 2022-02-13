@@ -51,10 +51,7 @@ with ``curl`` or ``wget``.
 | [``j001408m3023_ch2_components.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_components.fits      ) | IRAC ch2 model components |
 | [``j001408m3023_ch2_residual.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_residual.fits      ) | IRAC ch2 model residual |
 | ``r[AOR]-ch[12].log.fits``      | Exposure information for IRAC AORs used to generate PSFs |
-| [``j001408m3023_phot.fits``                 ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_phot.fits              ) | HST matched-aperture catalog |
-| [``j001408m3023_irac_phot.fits``            ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot.fits         ) | "" with IRAC model photometry |
-| [``j001408m3023_irac_phot_apcorr.fits``     ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac_phot_apcorr.fits  ) | "" and aperture corrections (**use this**).  [Column description](./phot_apcorr_columns.md). |
-| [``j001408m3023_irac.eazypy.zout.fits``     ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_irac.eazypy.zout.fits  ) | Photometric redshifts and population parameters.  [Column description](./zout_columns.md). |
+| [``j001408m3023_master.fits``     ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/index.html ) | Master table containing the aperture and total HST photometry, IRAC photometry, photometric redshifts and stellar population parameters.  [Column description](./master_columns.md). |
 
 ## Survey Fields
 
