@@ -1,7 +1,12 @@
 # alcs-clusters
-HST + IRAC catalogs in lensing cluster fields
+HST + IRAC images and photometric catalogs in lensing cluster fields.
 
-Updated photometric catalogs are available [here](https://vkokorev.s3.amazonaws.com/index.html).
+Quick Links:
+
+[Images](v1.0/README.md)
+
+[Photometric Catalogues](v1.0/fields.md) (Updated 12th Feb 2022)
+
 
 # Data Releases
 
