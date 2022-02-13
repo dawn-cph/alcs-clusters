@@ -3,7 +3,7 @@ HST + IRAC images and photometric catalogs in lensing cluster fields.
 
 Quick Links:
 
-[Images and Photometric Catalogues](v1.0/fields.md)
+[Images and Photometric Catalogs](v1.0/fields.md)
 
 [Methodology](v1.0/README.md)
 
