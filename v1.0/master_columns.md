@@ -1,5 +1,6 @@
 ## Notes
 
+- See the metadata of each table for full cluster name, cluster redshifts and EAZY fitting parameters.
 - All flux densities are given in units of ``microJansky`` (AB zeropoint = 23.9).
 - Photometry **is not** corrected for Galactic extinctions
 - Missing data (e.g., filter coverage doesn't overlap) indicated with flux/error ``-99``.
