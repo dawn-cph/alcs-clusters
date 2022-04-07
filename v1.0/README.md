@@ -20,13 +20,13 @@ These include files like the following, with additional files for all of the sep
 
 | File       |    Description  |
 | -------    |    -----------  |
-| [``hff-j001408m3023-ir_drz_sci.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-ir_drz_sci.fits.gz)  |  Detection image combined from WFC3/IR images  |
-| [``hff-j001408m3023-ir_drz_wht.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-ir_drz_wht.fits.gz)  |  Detection image, inverse variance             |
-| [``hff-j001408m3023-ir_seg.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-ir_seg.fits.gz)          |  Segmentation map associated with the photometric catalog                              |
-| [``hff-j001408m3023-f160w_drz_sci.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-f160w_drz_sci.fits.gz)  |  F160W science image                     |
-| [``hff-j001408m3023-f160w_drz_wht.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-f160w_drz_sci.fits.gz)  |  F160W inverse variance                 |
-| [``hff-j001408m3023-f814w_drc_sci.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-f814w_drc_sci.fits.gz)  |  F814W science image                    |
-| [``hff-j001408m3023-f814w_drc_wht.fits.gz``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023-f814w_drc_wht.fits.gz)  |  F814W inverse variance                 |
+| [``hff-j001408m3023-det_drz_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_sci.fits)  |  Detection image combined from WFC3/IR images  |
+| [``hff-j001408m3023-ir_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_wht.fits)  |  Detection image, inverse variance             |
+| [``hff-j001408m3023-ir_seg.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_seg.fits)          |  Segmentation map associated with the photometric catalog                              |
+| [``hff-j001408m3023-f160w_drz_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_sci.fits)  |  F160W science image                     |
+| [``hff-j001408m3023-f160w_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_wht.fits)  |  F160W inverse variance                 |
+| [``hff-j001408m3023-f814w_drc_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_sci.fits)  |  F814W science image                    |
+| [``hff-j001408m3023-f814w_drc_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_wht.fits)  |  F814W inverse variance                 |
 
 
 ## Spitzer IRAC images and photometric catalogs
@@ -40,16 +40,14 @@ with ``curl`` or ``wget``.
 
 | File       |    Description  |
 | -------    |    -----------  |
-| [``j001408m3023-ch1_drz_sci.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_sci.fits       ) | IRAC ch1 science mosaic |
-| [``j001408m3023-ch1_drz_wht.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_drz_wht.fits       ) | IRAC ch1 inverse variance |
-| [``j001408m3023-ch1_model.fits``            ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch1_model.fits         ) | IRAC ch1 model image |
-| [``j001408m3023_ch1_components.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch1_components.fits      ) | IRAC ch1 model components |
-| [``j001408m3023_ch1_residual.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch1_residual.fits      ) | IRAC ch1 model residual |
-| [``j001408m3023-ch2_drz_sci.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_sci.fits       ) | IRAC ch2 science mosaic |
-| [``j001408m3023-ch2_drz_wht.fits``          ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_drz_wht.fits       ) | IRAC ch2 inverse variance |
-| [``j001408m3023-ch2_model.fits``            ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023-ch2_model.fits         ) | IRAC ch2 model image |
-| [``j001408m3023_ch2_components.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_components.fits      ) | IRAC ch2 model components |
-| [``j001408m3023_ch2_residual.fits``         ](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/j001408m3023_ch2_residual.fits      ) | IRAC ch2 model residual |
+| [``j001408m3023-ch1_drz_sci.fits``          ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023-ch1_drz_sci.fits) | IRAC ch1 science mosaic |
+| [``j001408m3023-ch1_drz_wht.fits``          ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023-ch1_drz_wht.fits       ) | IRAC ch1 inverse variance |
+| [``j001408m3023-ch1_model.fits``            ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023-ch1_model.fits         ) | IRAC ch1 model (hdu[0]) and residual (hdu[1]) image |
+| [``j001408m3023_ch1_components.fits``         ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023_ch1_components.fits      ) | IRAC ch1 model components |
+| [``j001408m3023-ch2_drz_sci.fits``          ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023-ch2_drz_sci.fits       ) | IRAC ch2 science mosaic |
+| [``j001408m3023-ch2_drz_wht.fits``          ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023-ch2_drz_wht.fits       ) | IRAC ch2 inverse variance |
+| [``j001408m3023-ch2_model.fits``            ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023-ch2_model.fits         ) | IRAC ch2 model (hdu[0]) and residual (hdu[1]) image |
+| [``j001408m3023_ch2_components.fits``         ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/hff-j001408m3023_ch2_components.fits      ) | IRAC ch2 model components |
 | ``r[AOR]-ch[12].log.fits``      | Exposure information for IRAC AORs used to generate PSFs |
 | [``j001408m3023_master.fits``     ](https://vkokorev.s3.amazonaws.com/ALCS/HFF/hff-j001408m3023/index.html ) | Master table containing the aperture and total HST photometry, IRAC photometry, photometric redshifts and stellar population parameters.  [Column description](./master_columns.md). |
 
