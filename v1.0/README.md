@@ -14,25 +14,25 @@ GitHub [issues](https://github.com/dawn-cph/alcs-clusters/issues) page.
 
 The HST mosaics are all available on the individual CHArGE summary pages, for
 example
-[hff-j001408m3023.summary.html](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Prep/hff-j001408m3023.summary.html).
+[hff-j001408m3023.index.html](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/index.html).
  
 These include files like the following, with additional files for all of the separate HST filters as listed on the page.
 
 | File       |    Description  |
 | -------    |    -----------  |
-| [``hff-j001408m3023-det_drz_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_sci.fits)  |  Detection image combined from WFC3/IR images  |
-| [``hff-j001408m3023-det_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_wht.fits)  |  Detection image, inverse variance             |
-| [``hff-j001408m3023-det_seg.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_seg.fits)          |  Segmentation map associated with the photometric catalog                              |
-| [``hff-j001408m3023-f160w_drz_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_sci.fits)  |  F160W science image                     |
-| [``hff-j001408m3023-f160w_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_wht.fits)  |  F160W inverse variance                 |
-| [``hff-j001408m3023-f814w_drc_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_sci.fits)  |  F814W science image                    |
-| [``hff-j001408m3023-f814w_drc_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_wht.fits)  |  F814W inverse variance                 |
+| [``hff-j001408m3023-det_drz_sci.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_sci.fits)  |  Detection image combined from WFC3/IR images  |
+| [``hff-j001408m3023-det_drz_wht.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_wht.fits)  |  Detection image, inverse variance             |
+| [``hff-j001408m3023-det_seg.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_seg.fits)          |  Segmentation map associated with the photometric catalog                              |
+| [``hff-j001408m3023-f160w_drz_sci.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_sci.fits)  |  F160W science image                     |
+| [``hff-j001408m3023-f160w_drz_wht.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_wht.fits)  |  F160W inverse variance                 |
+| [``hff-j001408m3023-f814w_drc_sci.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_sci.fits)  |  F814W science image                    |
+| [``hff-j001408m3023-f814w_drc_wht.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_wht.fits)  |  F814W inverse variance                 |
 
 
 ## Spitzer IRAC images and photometric catalogs
 
 The IRAC products are listed on pages like
-[``hff-j001408m3023/Photometry/index.html``](https://s3.amazonaws.com/grizli-v1/Pipeline/hff-j001408m3023/Photometry/index.html).
+[``hff-j001408m3023/index.html``](https://alcs-data.s3.amazonaws.com/IRAC/HFF/hff-j001408m3023/index.html).
 
 Note that a full list of all of the IRAC products can be found at
 [all_files.v0.1.txt](./all_files.v0.1.txt), suitable for automatic retrieval
