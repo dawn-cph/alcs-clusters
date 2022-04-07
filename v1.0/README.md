@@ -21,8 +21,8 @@ These include files like the following, with additional files for all of the sep
 | File       |    Description  |
 | -------    |    -----------  |
 | [``hff-j001408m3023-det_drz_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_sci.fits)  |  Detection image combined from WFC3/IR images  |
-| [``hff-j001408m3023-ir_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_wht.fits)  |  Detection image, inverse variance             |
-| [``hff-j001408m3023-ir_seg.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_seg.fits)          |  Segmentation map associated with the photometric catalog                              |
+| [``hff-j001408m3023-det_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_wht.fits)  |  Detection image, inverse variance             |
+| [``hff-j001408m3023-det_seg.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_seg.fits)          |  Segmentation map associated with the photometric catalog                              |
 | [``hff-j001408m3023-f160w_drz_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_sci.fits)  |  F160W science image                     |
 | [``hff-j001408m3023-f160w_drz_wht.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_wht.fits)  |  F160W inverse variance                 |
 | [``hff-j001408m3023-f814w_drc_sci.fits.gz``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f814w_drc_sci.fits)  |  F814W science image                    |
