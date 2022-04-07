@@ -20,7 +20,7 @@ These include files like the following, with additional files for all of the sep
 
 | File       |    Description  |
 | -------    |    -----------  |
-| [``hff-j001408m3023-det_drz_sci.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_sci.fits)  |  Detection image combined from WFC3/IR images  |
+| [``hff-j001408m3023-det_drz_sci.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_sci.fits)  |  Detection image combined from ACS and WFC3/IR images  |
 | [``hff-j001408m3023-det_drz_wht.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_drz_wht.fits)  |  Detection image, inverse variance             |
 | [``hff-j001408m3023-det_seg.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-det_seg.fits)          |  Segmentation map associated with the photometric catalog                              |
 | [``hff-j001408m3023-f160w_drz_sci.fits``](https://alcs-data.s3.amazonaws.com/HST/HFF/hff-j001408m3023/hff-j001408m3023-f160w_drz_sci.fits)  |  F160W science image                     |
