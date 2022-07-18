@@ -14,7 +14,12 @@ Updated to version 1.0.
 
 [v1.0](v1.0/README.md) - Updated release of HST + IRAC images and photometry
 
-Contacts:
+# Data Releases
+
+If you found these data useful in your research please cite [Kokorev et al. 2022](https://arxiv.org/abs/2207.07125), and the DOI: XXXX
+
+
+# Contacts
 
 Vasily Kokorev:  vasilii.kokorev@nbi.ku.dk
 
