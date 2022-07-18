@@ -16,6 +16,6 @@ Updated to version 1.0.
 
 Contacts:
 
-Vasily Kokorev:  @VasilyKokorev / vasilii.kokorev@nbi.ku.dk
+Vasily Kokorev:  vasilii.kokorev@nbi.ku.dk
 
 Gabriel Brammer: @gbrammer / gabriel.brammer@nbi.ku.dk
