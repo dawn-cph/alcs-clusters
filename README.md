@@ -16,7 +16,7 @@ Updated to version 1.0.
 
 # References
 
-If you found these data useful in your research please cite [Kokorev et al. 2022](https://arxiv.org/abs/2207.07125), and the DOI: XXXX
+If you found these data useful in your research please cite [Kokorev et al. 2022](https://arxiv.org/abs/2207.07125), and the DOI: 10.17894/ucph.a272299c-f111-4f33-a8d2-8a829748a57c
 
 
 # Contacts
