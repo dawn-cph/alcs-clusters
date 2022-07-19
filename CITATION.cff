@@ -1,0 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  ALCA: HST and Spitzer Mosaics and Photometric
+  Catalogues
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Vasily
+    family-names: Kokorev
+    email: vasily.kokorev.astro@gmail.com
+    affiliation: >-
+      Cosmic Dawn Center, Niels Bohr Institute, 
+      University of Copenhagen
+    orcid: 'https://orcid.org/0000-0002-5588-9156'
+  - given-names: Gabriel
+    email: gbrammer@gmail.com
+    family-names: Brammer
+    affiliation: >-
+      Cosmic Dawn Center, Niels Bohr Institute,
+      University of Copenhagen
+    orcid: 'https://orcid.org/0000-0003-2680-0055'
+identifiers:
+  - type: doi
+    value: >-
+      10.17894/ucph.a272299c-f111-4f33-a8d2-8a829748a57c
+    description: University of Copenhagen ERDA Archive DOI
+  - type: url
+    value: 'https://github.com/dawn-cph/alcs-clusters'
+    description: Link to the github repository
+abstract: "We present a set of multi-wavelength mosaics and photometric catalogs in the ALMA
+            lensing cluster survey (ALCS) fields. The catalogs were built by reprocessing of 
+            archival data from the CHArGE compilation, taken by the Hubble Space Telescope (HST) 
+            in the RELICS, CLASH and Hubble Frontier Fields. Additionally we have reconstructed 
+            the Spitzer IRAC 3.6 and 4.5 μm mosaics, by utilising all the available archival IRSA/SHA exposures.
+            To alleviate the effect of blending in such a crowded region, we have modelled the Spitzer photometry 
+            by convolving the HST detection image with the Spitzer PSF using the novel golfir software. 
+            The final catalogs contain 218,000 sources, covering a combined area of 690 arcmin2."
