@@ -22,6 +22,6 @@ and the DOI: 10.17894/ucph.a272299c-f111-4f33-a8d2-8a829748a57c
 
 # Contacts
 
-Vasily Kokorev:  vasilii.kokorev@nbi.ku.dk
+Vasily Kokorev:  vasily.kokorev.astro@gmail.com
 
 Gabriel Brammer: @gbrammer / gabriel.brammer@nbi.ku.dk
