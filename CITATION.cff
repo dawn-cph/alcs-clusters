@@ -27,7 +27,7 @@ authors:
 identifiers:
   - type: doi
     value: >-
-      10.17894/ucph.a272299c-f111-4f33-a8d2-8a829748a57c
+      10.17894/ucph.aefebd02-b683-4ae8-8731-5b4c7808a7ec
     description: University of Copenhagen ERDA Archive DOI
   - type: url
     value: 'https://github.com/dawn-cph/alcs-clusters'
